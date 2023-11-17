@@ -3,6 +3,10 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Typewriter } from "react-simple-typewriter";
 import Logo from '../assets/scl-logo.png'
+import Banner from '../assets/banner.png'
+import { motion } from "framer-motion";
+import { fadeIn, scale } from '../utilities/configs/variants';
+import { transition } from '../utilities/configs/transition';
 
 const navigation = [
     { name: 'Product', href: '#' },
@@ -123,34 +127,42 @@ const Hero = () => {
                             </a>
                         </div>
                     </div> */}
-                    <div className="text-center">
-                        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                            <Typewriter
-                                words={["ශ්‍රී ඥානෝදය මධ්‍ය මහා විද්‍යාලය - දිවුලපිටිය"]}
-                                cursor
-                                cursorStyle="_"
-                                typeSpeed={250}
-                                deleteSpeed={150}
-                                loop
-                            />
-                        </h1>
-                        <p className="mt-6 text-lg leading-8 text-gray-600">
-                            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                            fugiat veniam occaecat fugiat aliqua.
-                        </p>
-                        <div className="mt-10 flex items-center justify-center gap-x-6">
-                            <a
-                                href="#"
-                                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                            >
-                                Get started
-                            </a>
-                            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                                Learn more <span aria-hidden="true">→</span>
-                            </a>
+                    <motion.div
+                        variants={fadeIn("down")}
+                        transition={transition()}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: false }}
+                        className="w-full xl:w-fit text-center xl:text-start text-4xl sm:text-6xl lg:text-8xl
+              font-bolt text-textPrimary uppercase"
+                    >
+                        <div className="text-center">
+                            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                                <Typewriter
+                                    words={["ශ්‍රී ඥානෝදය මධ්‍ය මහා විද්‍යාලය - දිවුලපිටිය"]}
+                                    cursor
+                                    cursorStyle="_"
+                                    typeSpeed={250}
+                                    deleteSpeed={150}
+                                    loop
+                                />
+                            </h1>
+                            <p className="mt-6 text-lg leading-8 text-gray-600">
+                                විද්‍යා සර්වස්‍ය ලෝචනං - විද්‍යා සර්වස්‍ය ලෝචනං
+                            </p>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
+                {/* <div>
+                    <motion.img
+                        key={Banner}
+                        src={Banner}
+                        initial={{ opacity: 0, y: 200 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={transition()}
+                    />
+                </div> */}
                 <div
                     className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
                     aria-hidden="true"
