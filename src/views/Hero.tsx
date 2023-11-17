@@ -3,9 +3,8 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Typewriter } from "react-simple-typewriter";
 import Logo from '../assets/scl-logo.png'
-import Banner from '../assets/banner.png'
 import { motion } from "framer-motion";
-import { fadeIn, scale } from '../utilities/configs/variants';
+import { fadeIn } from '../utilities/configs/variants';
 import { transition } from '../utilities/configs/transition';
 
 const navigation = [
