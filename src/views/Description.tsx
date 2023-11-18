@@ -23,7 +23,7 @@ const features = [
 
 const Description = () => {
     return (
-        <div className="bg-white py-24 sm:py-32">
+        <div className="bg-white pb-24">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -45,7 +45,7 @@ const Description = () => {
 
                 <div className="mx-auto max-w-2xl lg:text-center mt-16">
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        බාලදක්ෂ මෙහෙවර ප්‍රකාශය
+                        බාලදක්ෂ ව්‍යාපාරයේ අරමුණු
                     </p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                         බාලදක්ෂ ව්‍යාපාරයේ මූලික අරමුණු වන්නේ ළමා සහ තරුණ පරපුර ශාරීරික, බුද්ධිමය, සංවේදී, සමාජයීය, ැධ්‍යාත්මික හා සංස්කෘතික හැකියාවන් වර්ධනය කිරීම තුලින් ප්‍රාදේශීය, ජාතික සහ ජාත්‍යන්තර ප්‍රජාවට වැඩදායී වූ වගකිය හැකි යහපත් පුරවැසියෙකු බිහි කිරීමයි.
@@ -54,7 +54,43 @@ const Description = () => {
 
                 <div className="mx-auto max-w-2xl lg:text-center mt-16">
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                    බාලදක්ෂ ව්‍යාපාරයේ මූලධර්ම
+                        බාලදක්ෂ ව්‍යාපාරයේ මූලධර්ම
+                    </p>
+                    <ol className="relative border-s border-gray-200 dark:border-gray-700 mt-16">
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">නීතිය හා පොරොන්දුව</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">ක්‍රියාවෙන් අවබෝධය</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">කාණ්ඩ ක්‍රමය</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">සංකේතාත්මක රාමුව</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">එළිමහන් ජීවිතය</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">වැඩැහිටි නායකත්වය</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">පෞද්ගලික ප්‍රගතිය</h3>
+                        </li>
+                    </ol>
+                </div>
+
+                <div className="mx-auto max-w-2xl lg:text-center mt-16">
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                        බාලදක්ෂ ව්‍යාපාරයේ අරමුණු
                     </p>
                 </div>
 
@@ -73,6 +109,43 @@ const Description = () => {
                         ))}
                     </dl>
                 </div>
+
+                <div className="mx-auto max-w-2xl lg:text-center mt-16">
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                        බාලදක්ෂ ප්‍රගති පදක්කම් මාර්ගය
+                    </p>
+                    <ol className="relative border-s border-gray-200 dark:border-gray-700 mt-16">
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">ජාතික බාලදක්ෂ සාමාජික පදක්කම</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">බාලදක්ෂ ආචාර්යවරයාගේ ප්‍රදානය</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">සමූහ බාලදක්ෂ ආචාර්යවරයාගේ ප්‍රදානය</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">දිසා කොමසාරිස් ප්‍රදානය</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">ප්‍රධාන කොමසාරිස් අභියෝගතා ප්‍රදානය (අනිවාර්ය නොවේ)</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">වනවාසිකයාගේ ප්‍රදානය</h3>
+                        </li>
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">ජනාධිපති බාලදක්ෂ ප්‍රදානය</h3>
+                        </li>
+                    </ol>
+                </div>
+
             </div>
         </div>
     )
